@@ -1,69 +1,22 @@
-{
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "provenance": [],
-      "authorship_tag": "ABX9TyP8sofduHpVYUIzMoBIqkIS",
-      "include_colab_link": true
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "language_info": {
-      "name": "python"
-    }
-  },
-  "cells": [
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/sakshichavan182006/Sakshi-/blob/main/Assignment%204%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
-      "cell_type": "code",
-      "execution_count": 1,
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "479x4B9ZGY-H",
-        "outputId": "db030046-90ce-4aed-95e3-33ca59135b8c"
-      },
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "Value of a: True\n",
-            "Value of b: False\n",
-            "a AND b: False\n",
-            "a OR b: True\n",
-            "NOT a: False\n",
-            "NOT b: True\n"
-          ]
-        }
-      ],
-      "source": [
-        "# Program to demonstrate logical operators\n",
-        "\n",
-        "a = True\n",
-        "b = False\n",
-        "\n",
-        "print(\"Value of a:\", a)\n",
-        "print(\"Value of b:\", b)\n",
-        "\n",
-        "print(\"a AND b:\", a and b)\n",
-        "print(\"a OR b:\", a or b)\n",
-        "print(\"NOT a:\", not a)\n",
-        "print(\"NOT b:\", not b)"
-      ]
-    }
-  ]
-}
+Assignment 4 
+
+# Program to demonstrate logical operators
+
+a = True
+b = False
+
+print("Value of a:", a)
+print("Value of b:", b)
+
+print("a AND b:", a and b)
+print("a OR b:", a or b)
+print("NOT a:", not a)
+print("NOT b:", not b)
+
+Output:
+Value of a: True
+Value of b: False
+a AND b: False
+a OR b: True
+NOT a: False
+NOT b: True
